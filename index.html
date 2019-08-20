@@ -1,6 +1,36 @@
-<html>
-<head></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .div {
+            margin-left: 200px;
+        }
+
+        div {
+            margin-left: 300px;
+        }
+
+        #div {
+            margin-left: 100px;
+        }
+
+        .div1 {
+            margin-left: 800px;
+        }
+
+        .div2 {
+            margin-left: 400px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello world!!!</h1>
+<div style="margin-left: 0">STYLE</div>   <!-- margin-left: 0px -->
+<div id="div">ID</div>					  <!-- margin-left: 100px -->
+<div class="div">CLASS</div>              <!-- margin-left: 200px -->
+<div>ELEMENT</div>                        <!-- margin-left: 300px -->
+<div class="div1 div2">ORDER</div>        <!-- margin-left: 400px -->
 </body>
 </html>
