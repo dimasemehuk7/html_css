@@ -1,13 +1,29 @@
 div {
   height: 120px;
   width: 450px;
-  border: solid 8px;
+  border: 12px solid black;
   margin-left: 360px;
   margin-top: 60px;
 }
 
+.low {
+  width: 150px;
+  margin: 0px;
+  border: none;
+  background: red;
+}
+
+.medium {
+  width: 300px;
+  margin: 0px;
+  border: none;
+  background: #ffc927;
+}
+
 .high {
-  background: green;
+  margin: 0px;
+  border: none;
+  background: #218005;
 }
 
 /*# sourceMappingURL=style.css.map */
