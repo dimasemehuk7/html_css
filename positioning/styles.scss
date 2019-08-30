@@ -1,0 +1,36 @@
+$size: 400px;
+$halfSize: $size / -2;
+
+body {
+  margin: 0;
+}
+
+.test {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+
+.box {
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: $size;
+  width: $size;
+  background-color: green;
+  margin-left: $halfSize;
+  margin-top: $halfSize;
+}
+
+.elementA {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: $size / 2;
+  width: $size / 2;
+  background-color: red;
+  margin-left: $halfSize / 2;
+  margin-top: $halfSize / 2;
+}

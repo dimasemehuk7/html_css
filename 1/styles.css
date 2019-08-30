@@ -1,0 +1,25 @@
+div {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+
+.red {
+  border: 3px solid red;
+  left: 30px;
+  top: 30px;
+}
+
+.blue {
+  border: 3px solid blue;
+  left: 145px;
+  top: 145px;
+}
+
+.green {
+  border: 3px solid green;
+  left: 260px;
+  top: 260px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,52 @@
+body {
+  & > div {
+    height: 120px;
+    width: 450px;
+    border: 12px solid black;
+    margin-left: 360px;
+    margin-top: 60px;
+  }
+
+  & > div {
+    & > div:first-child {
+      height: 100%;
+    }
+  }
+
+  & > div > div:last-child {
+    display: none;
+  }
+
+  & > div:first-child > div:first-child {
+    width: 30%;
+    background: red;
+  }
+
+  & > div:nth-child(2) > div:first-child {
+    width: 70%;
+    background: yellow;
+  }
+
+  & > div:last-child > div:first-child {
+    background: green;
+  }
+}
+
+.menu li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.menu li:hover {
+  background-color: gray;
+}
+
+/*
+:first-child
+:last-child
+:nth-child(n)
+>
++
+~
+<space>
+*/
