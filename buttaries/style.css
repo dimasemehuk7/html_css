@@ -32,14 +32,4 @@ body > div:last-child > div:first-child {
   background-color: gray;
 }
 
-/*
-:first-child
-:last-child
-:nth-child(n)
->
-+
-~
-<space>
-*/
-
 /*# sourceMappingURL=style.css.map */
