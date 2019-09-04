@@ -1,0 +1,48 @@
+$size: 300px;
+$halfSize: $size / -2;
+
+.square {
+  width:  $size;
+  height:  $size;
+  background: pink;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: $halfSize;
+  margin-top: $halfSize;
+}
+
+.circle {
+  position:absolute ;
+  border-radius: 50%;
+  width: $size/2;
+  height: $size/2;
+  margin-left: $halfSize/2;
+  margin-top: $halfSize/2;
+  background: orange;
+  left: 50%;
+  top: 50%;
+}
+
+.line-y {
+  position: absolute;
+  width: $size/25;
+  height: $size/5;
+  left: 50%;
+  top: 50%;
+  margin-left: $halfSize/25;
+  margin-top: $halfSize/5;
+  background: white;
+
+}
+
+.line-x {
+  position: absolute;
+  width: $size/5;
+  height: $size/25;
+  left: 50%;
+  top: 50%;
+  margin-left: $halfSize/5;
+  margin-top: $halfSize/25;
+  background: white;
+}
