@@ -1,0 +1,66 @@
+$color-gray: #ccc;
+$color-secondary-hover: #eab310;
+
+.social-icon {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: gray;
+  border-radius: 50%;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+
+  &:hover {
+    background: $color-secondary-hover;
+  }
+}
+
+.social-photo {
+  position: absolute;
+  top: 30px;
+
+  &:nth-child(1) {
+    left: 100px;
+  }
+
+  &:nth-child(2) {
+    left: 400px;
+  }
+
+  &:nth-child(3) {
+    left: 700px;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    border: 3px solid $color-gray;
+  }
+
+  .vkontakte-icon {
+    @extend .social-icon;
+    top: 46px;
+    left: 0;
+  }
+
+  .twitter-icon {
+    @extend .social-icon;
+    top: 6px;
+    left: 42px;
+  }
+
+  .facebook-icon {
+    @extend .social-icon;
+    top: 96px;
+    left: -10px;
+  }
+
+  .email-icon {
+    @extend .social-icon;
+    top: 215px;
+    left: 98px;
+  }
+}
+
+
+

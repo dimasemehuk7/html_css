@@ -1,0 +1,49 @@
+.social-icon, .social-photo .email-icon, .social-photo .facebook-icon, .social-photo .twitter-icon, .social-photo .vkontakte-icon {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: gray;
+  border-radius: 50%;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+.social-icon:hover, .social-photo .email-icon:hover, .social-photo .facebook-icon:hover, .social-photo .twitter-icon:hover, .social-photo .vkontakte-icon:hover {
+  background: #eab310;
+}
+
+.social-photo {
+  position: absolute;
+  top: 30px;
+}
+.social-photo:nth-child(1) {
+  left: 100px;
+}
+.social-photo:nth-child(2) {
+  left: 400px;
+}
+.social-photo:nth-child(3) {
+  left: 700px;
+}
+.social-photo .avatar {
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}
+.social-photo .vkontakte-icon {
+  top: 46px;
+  left: 0;
+}
+.social-photo .twitter-icon {
+  top: 6px;
+  left: 42px;
+}
+.social-photo .facebook-icon {
+  top: 96px;
+  left: -10px;
+}
+.social-photo .email-icon {
+  top: 215px;
+  left: 98px;
+}
+
+/*# sourceMappingURL=styles.css.map */
